@@ -26,6 +26,18 @@ body{
     transition: 0.6s ease-out;
 }
 
+.container-sidebar{
+    position: relative;
+    width: 200px;
+    height: 105px;
+    background: #2323bb;
+    padding: 28px 32px;
+    overflow: hidden;
+    border-radius: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
 .search-box{
     width: 100%;
     height: min-content;
@@ -181,4 +193,42 @@ body{
         scale: 1;
         opacity: 1;
     }
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #06283D;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.header-box {
+    background-color: #2323bb;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 18px;
+    color: whitesmoke;
 }
