@@ -23,7 +23,6 @@ search.addEventListener('click', () => {
 
                 // If the API returns a 404 error, display an error message
                 if (json.cod === '404') {
-                    if (json.cod === '404') {
                         container.style.height = '400px';
                         weatherBox.style.display = 'none';
                         weatherDetails.style.display = 'none';
