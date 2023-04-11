@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!--Connecting styles and images -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,28 +13,32 @@
 </head>
 
 <body>
+<!-- This div is to draw a header box on the website-->
 <div class="header-box">
     <h1>MyWeather</h1>
 </div>
+<!--Sidebar was made to put a linked button there -->
 <div class="sidebar">
     <div class="container-sidebar">
         <p><a href="index2.html">CRYPTO-MARKET</a></p>
+        <!--href="link" attribute creates a link to whatever you enter to the attribute-->
     </div>
 </div>
+<!--This div contains a search box for the weather app-->
 <div class="container">
     <div class="search-box">
         <i class="fa-solid fa-location-dot"></i>
         <input type="text" placeholder="Enter your location">
         <button class="fa-solid fa-magnifying-glass"></button>
     </div>
-
+    <!--In case if user enters incorrect value to the search box, page will through an error with the image-->
     <div class="not-found">
-        <img src="images/404.png">
+        <img src="images/404.png" alt="404">
         <p>Oops! Invalid location :/</p>
     </div>
 
     <div class="weather-box">
-        <img src="">
+        <img src="" alt="weather-box">
         <p class="temperature"></p>
         <p class="description"></p>
     </div>
@@ -57,7 +61,7 @@
     </div>
 
 </div>
-
+<!--Scripts are very important for the backend so that is how we connect them to our html-->
 <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
 <script src="index.js"></script>
 </body>
