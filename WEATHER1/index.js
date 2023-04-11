@@ -83,9 +83,6 @@ search.addEventListener('click', () => {
                     container.style.height = '590px';
 
 
-                }
-            }
-        )
-
-
-})
+                });
+        
+});
