@@ -19,8 +19,8 @@ fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin%2Ctether%2Cethe
             //Create HTML elements for the crypto data
             container.innerHTML += `
                 <div class="coin ${change < 0 ? 'falling' : 'rising'}">
-                    <div class="coin-logo">
-                        <img src="imgages2/${coin}.png" alt="logo">
+                    <div class="${coin}-logo">
+                        <img src="imgages2/coin.png" alt="logo">
                     </div>
                     <div class="coin-name">
                         <h3>${coin}</h3>

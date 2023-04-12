@@ -81,7 +81,12 @@ search.addEventListener('click', () => {
                     weatherDetails.classList.add('fadeIn');
                     container.style.height = '590px';
 
+<<<<<<< HEAD:WEATHER1/index.js
 
                 });
         
 });
+=======
+                });
+        });
+>>>>>>> d20b4d9 (fixed repository):index.js
