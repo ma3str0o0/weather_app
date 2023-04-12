@@ -13,7 +13,7 @@ search.addEventListener('click', () => {
     const city = document.querySelector('.search-box input').value;
 
     //If input city is empty - nothing to return
-    if (city === '')
+    if (city === 'ab')
         return;
 
     // Fetch the weather data from the OpenWeatherMap API
